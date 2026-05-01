@@ -218,13 +218,13 @@ export default function ComparePage() {
   const [done2, setDone2] = useState<boolean>(false);
 
   // ✅ FIX: Proper typing for setReport
-  const research = async (
-    query: string,
-    setResearching: React.Dispatch<React.SetStateAction<boolean>>,
-    setReport: React.Dispatch<React.SetStateAction<string>>,
-    setAgents: React.Dispatch<React.SetStateAction<Record<string, any>>>,
-    setDone: React.Dispatch<React.SetStateAction<boolean>>
-  ) => {
+ const research = async (
+  query: string,
+  setResearching: React.Dispatch<React.SetStateAction<boolean>>,
+  setReport: React.Dispatch<React.SetStateAction<string>>,
+  setAgents: React.Dispatch<React.SetStateAction<Record<string, any>>>,
+  setDone: React.Dispatch<React.SetStateAction<boolean>>
+) => {
     if (!query.trim()) return;
 
     setResearching(true);
