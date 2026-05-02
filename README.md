@@ -1,41 +1,38 @@
- Rage AI Search
+🚀 Rage AI Search
 
- AI-powered semantic search engine with caching for ultra-fast and intelligent responses.
+⚡ AI-powered semantic search engine with intelligent caching for ultra-fast, context-aware responses.
 
 🌐 Live Demo
 
 🔗 Frontend Live:
- https://research-frontend-fawn.vercel.app/
+👉 https://research-frontend-fawn.vercel.app/
 
 📌 Overview
 
-Rage AI Search is an advanced AI-based search platform that provides context-aware and intelligent answers, going beyond traditional search engines.
+Rage AI Search is a modern AI-powered search platform designed to deliver context-aware, intelligent, and fast responses, going beyond traditional keyword-based search engines.
 
-It combines AI with caching to:
+It leverages Large Language Models (LLMs) along with a caching layer to significantly improve performance and reduce operational costs.
 
-⚡ Deliver faster response times
-🔁 Instantly serve repeated queries
-💰 Reduce API costs
-
-⚡ response fast milta hai
-🔁 repeated queries instantly serve hoti hain
-💰 API cost reduce hoti hai
+✨ Key Benefits
+⚡ Faster response time
+🔁 Instant results for repeated queries
+💰 Reduced API usage and cost
 🔥 Core Features
-🔍 AI-based Smart Search (Any Topic)
-⚡ Fast Response with Caching
-🧠 Context-Aware Answers (LLM Powered)
-💬 Natural Language Queries Support
-📄 Detailed AI-generated Explanations
-🔁 Query Result Caching (Performance Boost)
+🔍 AI-Powered Smart Search (Any Topic)
+🧠 Context-Aware Responses (LLM-based)
+⚡ High Performance with Caching
+💬 Natural Language Query Support
+📄 Detailed AI-generated Answers
+🔁 Query Result Caching System
 🔐 Authentication System (Login/Signup)
 📱 Fully Responsive UI
-How It Works
-The user enters a query.
-The backend checks whether the response exists in the cache.
-If a cached response is found → it is returned instantly ⚡
-If no cached response is found → an AI API call is made
-The generated response is stored in the database/cache
-The user receives an optimized and fast response
+🧠 How It Works
+The user submits a search query
+The backend checks if the response exists in the cache
+If found → returns instantly ⚡
+If not found → sends request to AI API
+The generated response is stored in cache/database
+The user receives a fast and optimized result
 🛠️ Tech Stack
 💻 Frontend
 React.js (Vite)
@@ -44,14 +41,13 @@ Axios
 ⚙️ Backend
 Node.js
 Express.js
-🧠 AI Engine
-LLM API (OpenAI / Similar)
+🧠 AI Integration
+Groq API (LLM)
+Tavily API (Search/Research)
 🗄️ Database
 MongoDB Atlas
-⚡ Caching Layer
-In-memory caching / Redis (based on implementation)
-🔐 Authentication Features
-User Signup/Login
-JWT Token Authentication
+⚡ Caching
+In-memory caching / Redis
+🔐 Authentication
+JWT (JSON Web Tokens)
 Protected Routes
-Session Handling (LocalStorage)
