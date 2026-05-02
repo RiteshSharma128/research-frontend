@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ Rage AI Search
 
-## Getting Started
+ AI-powered semantic search engine with caching for ultra-fast and intelligent responses.
 
-First, run the development server:
+🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 Frontend Live:
+ https://research-frontend-fawn.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Rage AI Search is an advanced AI-based search platform that provides context-aware and intelligent answers, going beyond traditional search engines.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+It combines AI with caching to:
 
-## Learn More
+⚡ Deliver faster response times
+🔁 Instantly serve repeated queries
+💰 Reduce API costs
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚡ response fast milta hai
+🔁 repeated queries instantly serve hoti hain
+💰 API cost reduce hoti hai
+🔥 Core Features
+🔍 AI-based Smart Search (Any Topic)
+⚡ Fast Response with Caching
+🧠 Context-Aware Answers (LLM Powered)
+💬 Natural Language Queries Support
+📄 Detailed AI-generated Explanations
+🔁 Query Result Caching (Performance Boost)
+🔐 Authentication System (Login/Signup)
+📱 Fully Responsive UI
+How It Works
+The user enters a query.
+The backend checks whether the response exists in the cache.
+If a cached response is found → it is returned instantly ⚡
+If no cached response is found → an AI API call is made
+The generated response is stored in the database/cache
+The user receives an optimized and fast response
+🛠️ Tech Stack
+💻 Frontend
+React.js (Vite)
+Tailwind CSS
+Axios
+⚙️ Backend
+Node.js
+Express.js
+🧠 AI Engine
+LLM API (OpenAI / Similar)
+🗄️ Database
+MongoDB Atlas
+⚡ Caching Layer
+In-memory caching / Redis (based on implementation)
+🔐 Authentication Features
+User Signup/Login
+JWT Token Authentication
+Protected Routes
+Session Handling (LocalStorage)
